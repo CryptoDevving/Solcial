@@ -5,7 +5,7 @@ use anchor_spl::token::{self, Token, TokenAccount, Transfer};
 use solana_program::pubkey; // Added import for pubkey! macro
 use solana_program::rent::Rent;
 
-declare_id!("6EsKQnDt3zQd7ttjyfEFPCdWYTjgupkv4sZsWKfPCVQR");
+declare_id!("2AMLveNaFm7tysy3moFyshsW6Q9qoBJPRcaEL3vEhuzt");
 
 const MAX_POST_LENGTH: usize = 280; // Maximum character length of a post or reply
 const MAX_REPORT_REASON_LENGTH: usize = 200; // Maximum character length of a report reason
